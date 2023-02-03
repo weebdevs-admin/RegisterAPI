@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+.data{
+    display: none;
+}
+.list__data-open{
+    display: block;
+}
+ul{
+    
+    margin: 50px auto;
+
+}
+li{
+    width: 90%;
+    overflow: auto;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+}
+.edit-input{
+    width: 180px;
+    height: 35px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+    outline:none;
+}
+.edit-btn{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    background-color: rgb(5, 188, 20);
+}
+.edit__input{
+    display: none;
+}
+.registration__title{
+    color: rgb(29, 184, 29);
+}
+.editForm{
+    display: inline-block;
+}
+.delete__form{
+    display: none;
+}
+.delete__btn{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    background-color: red;
+}
+.delete__input{
+    width: 180px;
+    height: 35px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 0px;
+    outline:none;
+    margin-top: 50px;
+}
+.openDelete{
+    display: block;
+}
+@media(max-width:767px){
+    .edit-input{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
